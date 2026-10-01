@@ -489,7 +489,7 @@ EDGE_HOSTS = [
     ).split(",")
     if h.strip()
 ]
-HOSTS_URL = os.environ.get("HOSTS_URL", "https://jerylihub.github.io/gate/hosts.txt")
+HOSTS_URL = os.environ.get("HOSTS_URL", https://ttbly.github.io/homeip/hosts.txt")
 
 
 def build_hosts_text(data):
@@ -548,7 +548,7 @@ def build_hosts_text(data):
 EDT_UUID = os.environ.get("EDT_UUID", "c1a31cecb6dd31a8efd652554e3304e9")
 EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "cm0517.ttbly.qzz.io")
 EDT_FINGERPRINT = os.environ.get("EDT_FINGERPRINT", "chrome")
-SUB_URL = os.environ.get("SUB_URL", "https://jerylihub.github.io/gate/sub.txt")
+SUB_URL = os.environ.get("SUB_URL", "https://https://ttbly.github.io/homeip/sub.txt")
 
 
 def _b64_secret_encode(plaintext, secret):

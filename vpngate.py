@@ -489,7 +489,7 @@ EDGE_HOSTS = [
     ).split(",")
     if h.strip()
 ]
-HOSTS_URL = os.environ.get("HOSTS_URL", https://ttbly.github.io/homeip/hosts.txt")
+HOSTS_URL = os.environ.get("HOSTS_URL", "https://ttbly.github.io/homeip/hosts.txt")
 
 
 def build_hosts_text(data):
